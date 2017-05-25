@@ -1,0 +1,50 @@
+{
+    "users": [ {
+        "username": "fduthu@lekooa.com",
+        "firstName": "Fabien",
+        "lastName": "Duthu",
+        "role": "Dev"
+    },
+    {
+        "username": "alaborderie@lekooa.com",
+        "firstName": "Antoine",
+        "lastName": "Laborderie",
+        "role": "Dev"
+    },
+    {
+        "username": "gmonteiro@lekooa.com",
+        "firstName": "Gonçalo",
+        "lastName": "Ribeiro Monteiro",
+        "role": "Dev"
+    },
+    {
+        "username": "xcastoreo@lekooa.com",
+        "firstName": "Ximun",
+        "lastName": "Castoreo",
+        "role": "Dev"
+    },
+    {
+        "username": "skreckelbergh@lekooa.com",
+        "firstName": "Stéphane",
+        "lastName": "Kreckelbergh",
+        "role": "CEO"
+    },
+    {
+        "username": "oarano@lekooa.com",
+        "firstName": "Orkatz",
+        "lastName": "Arano",
+        "role": "Dev"
+    },
+    {
+        "username": "ccussigh@lekooa.com",
+        "firstName": "Carine",
+        "lastName": "Cussigh",
+        "role": "Com"
+    },
+    {
+        "username": "lbeelprez@lekooa.com",
+        "firstName": "Laurent",
+        "lastName": "Beelprez",
+        "role": "Com"
+    } ]
+}
