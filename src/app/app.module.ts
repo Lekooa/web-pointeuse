@@ -9,12 +9,17 @@ import { MainPage } from '../pages/main/main';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+import { Device } from '@ionic-native/device';
+import { IBeacon } from '@ionic-native/ibeacon';
+
+import { BleService } from '../services/ble';
+import { EventsManager } from '../utils/events-manager';
 
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
-    MainPage
+    MainPage,
   ],
   imports: [
     BrowserModule,
@@ -34,7 +39,11 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   providers: [
     StatusBar,
     SplashScreen,
-    {provide: ErrorHandler, useClass: IonicErrorHandler}
+    Device,
+    IBeacon,
+    EventsManager,
+    BleService,
+    { provide: ErrorHandler, useClass: IonicErrorHandler }
   ]
 })
-export class AppModule {}
+export class AppModule { }

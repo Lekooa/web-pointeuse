@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { NavController } from 'ionic-angular';
-import { UserInterface } from '../../interfaces';
+import { UserInterface } from '../../interfaces/user';
 import { Http, RequestOptions, Headers } from '@angular/http';
 
 @Component({
