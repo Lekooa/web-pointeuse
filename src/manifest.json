@@ -1,12 +1,12 @@
 {
-  "name": "Ionic",
-  "short_name": "Ionic",
+  "name": "Web-Pointeuse",
+  "short_name": "WP",
   "start_url": "index.html",
   "display": "standalone",
   "icons": [{
-    "src": "assets/imgs/logo.png",
-    "sizes": "512x512",
-    "type": "image/png"
+    "src": "assets/icon/favicon.ico",
+    "sizes": "66x64",
+    "type": "image/ico"
   }],
   "background_color": "#4e8ef7",
   "theme_color": "#4e8ef7"
